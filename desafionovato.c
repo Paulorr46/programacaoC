@@ -14,6 +14,7 @@ int main() {
     float area1, area2, densidadep1, densidadep2;
     float pib1, pib2, pibpercapita1, pibpercapita2;
     int turisticos1, turisticos2;
+    float superpoder1, superpoder2;
   // Área para entrada de dados
   
     printf("Informe a seguintes informações das cartas: \n");
@@ -68,6 +69,8 @@ int main() {
     pibpercapita1 = (float)(pib1 / populacao1);
     pibpercapita2 = (float)(pib2 / populacao2);
 
+    superpoder1 = soma = (float)populacao1 + area1 + pib1 + pibpercapita1 + (1 / densidadep1) + turisticos1;
+    superpoder2 = soma =(float)populacao2 + area2 + pib2 + pibpercapita2 + (1 / densidadep2) + turisticos2;
 
   // Área para exibição dos dados da cidade
   
