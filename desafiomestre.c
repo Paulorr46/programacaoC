@@ -172,12 +172,25 @@ int main() {
 
             if (resultadoAtributo1 == 1 && resultadoAtributo2 == 1)
             {
+                
+                printf("Resultados\n");
+                printf("%s X %s", cidade1, cidade2);
+                printf("Os Atributos escolhidos foram: %d X %d", primeiroAtributo, segundoAtributo);
+                printf("Carta 1: %d Carta 2: %d\n", resultadoAtributo1, resultadoAtributo2);
                 printf("Carta 1 Venceu!\n");
 
             } else if(resultadoAtributo1 == 0 && resultadoAtributo2 == 0) {
-                printf("Carta 2 Venceu!!\n");
+                printf("Resultados\n");
+                printf("%s X %s", cidade1, cidade2);
+                printf("Os Atributos escolhidos foram: %d X %d", primeiroAtributo, segundoAtributo);
+                printf("Carta 1: %d Carta 2: %d\n", resultadoAtributo1, resultadoAtributo2);
+                printf("Carta 2 Venceu!\n");
 
             } else {
+                printf("Resultados\n");
+                printf("%s X %s", cidade1, cidade2);
+                printf("Os Atributos escolhidos foram: %d X %d", primeiroAtributo, segundoAtributo);
+                printf("Carta 1: %d Carta 2: %d\n", resultadoAtributo1, resultadoAtributo2);
                 printf("Empatou!\n");
             }
 
